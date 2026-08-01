@@ -189,7 +189,7 @@ if predict_button:
     try:
 
         response = requests.post(
-            "https://https://heart-ai-api-o0i6.onrender.com/predict",
+            "https://heart-ai-api-o0i6.onrender.com/predict",
             json=patient_data
         )
 
